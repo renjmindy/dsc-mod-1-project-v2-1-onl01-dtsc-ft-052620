@@ -94,9 +94,15 @@ We combined all imdb* tabular data-sets to answer this question. We noticed that
 
 A general idea is manifest by far. We, however, took one subtle thing into our consideration. Over a range of rating regions, i.e. from 6 to 7, 7 to 8, 8 to 9 and then upto 10, genres play different weights. Take documentary, documentary type of movies obtain higher ratings (and/or votes) than the rest of genres in the highest rating region (9-10). On the other hand, the rating of more drama movies fall into somewaht lower rating region that is broadly distributed between 6 and 9. This observation tells us the weight of each genre is different in different rating regions. Hence, to evaluate every director's performance, we account for which genre type of movie for which the director conducted.     
 
-I calculated the director's performance based on the corresponding movie's average rating, and I assigned different weights depending on where the rating of one movie falls. For example, the director who once conducted one documentary movie with a lower rating will be given lower credit than the one who conduct the same documentary type of movie that obtained higher average rating. For directors who conducted drama movies with ratings between 9 and 10, they will obtain lower credit than those who also conducted drama movies but with lower average ratings ranging from 6 to 9. This is the way we assign different weights to different directors who conducted the same genre type of movies. 
+We calculated the director's performance based on the corresponding movie's average rating, and I assigned different weights depending on where the rating of one movie falls. For example, the director who once conducted one documentary movie with a lower rating will be given lower credit than the one who conduct the same documentary type of movie that obtained higher average rating. For directors who conducted drama movies with ratings between 9 and 10, they will obtain lower credit than those who also conducted drama movies but with lower average ratings ranging from 6 to 9. This is the way we assign different weights to different directors who conducted the same genre type of movies. 
 
+In every given average rating region, the first 100 directors whose movies gained most average ratings were identified and chosen in our pool. Overall, we have 400 director candidates in our pool and we need to further narrow down our pool by applying stricter criteria to filtering out 95% of candidates. Only Top 5% of candidates are included in our final-list. As a consequence, we resticted the scope of our final-list selection by matching our 400 candidates' movies to the list of highly profitable movies as concluded in Mike's analyses.
+To summarize, the answer to question 3 breaks down into 10 sub-questions as follows:
 
+  - What're Top 5 genres in every sub-region of average rating?
+  - Who're Top 100 directors in every sub-region of average rating?
+  - What're movies conducted by Top 100 directors?
+  - 
 
 ## Recommendations:
 
