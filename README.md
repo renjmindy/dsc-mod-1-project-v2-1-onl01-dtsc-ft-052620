@@ -115,7 +115,20 @@ To summarize, the answer to question 3 breaks down into 10 sub-questions as foll
 In imdb* movie data-sets, Top 5 genres in rating region of 9-10 are documentary, drama, comedy, biography and music (only showed up once). Top 5 genres in rating region of 8-9 are drama, documentary, comedy, biography and thriller. Top 5 genres in rating region of 7-8 are drama, documentary, comedy, romance and thriller. The last Top 5 in 6-7 are drama, comedy, romance and thriller. We also analyzed tmdb* movie data-sets to get Top 5 genres, which are drama, comedy, documentary, thriller and horror based on the total number of movies collected in each genre. Top 3 genres of movies in tmdb* data-sets reflect that these genres of movies tend to be more attractive to the audience is consistent with our observations from imdb* data-sets.   
 
 ## Future Work:
-We might be able to 
+It might be worth our energies to categorize tmdb* data-sets in terms of average votes and popularity, respectively, into different groups. However, since the coverage of popularity is way much broader than average votes, which is from 1 to 10, it's a bit tricky to chop the popularity into several sub-groups. I also took a look at the correlation between average votes and popularity. I didn't see an apparent dependency between them. Therefore, we couldn't interpret a movie with higher average votes must be more popular. We would like to see what Top 5 genres are in terms of popularity (from 1 to 80). Prior to the dissecting the popularity into sub-regions, we might try to find any correlated features with the popularity from other factors such as box office numbers, net interests and so on.      
+
+**Question 4: Who are the directors creating high grossing films and highly rated films?**
+
+![Question_Four_1_Graph](./Images/Question_Four_1_Graph.png)
+![Question_Four_2_Graph](./Images/Question_Four_2_Graph.png)
+
+## Analysis:
+
+To answer this question, we simply looped over tn budget table and tried to find any matches from four lists of Top 100 directors.   
+
+## Recommendations:
+
+## Future Work:
 
 **Question 5: What are primary professions (other than directors) of selective directors who conducted not only profitable but attractive movies?**
 
