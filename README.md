@@ -85,6 +85,28 @@ It is interesting that all five genres observed low points in the fall and winte
 
 **Question 3: What genre of films are more likely being fond of the audience?**
 
+![Question_Three_Graph](./Images/Question_Three_Graph.png)
+
+## Analysis:
+
+We combined all imdb* tabular data-sets to answer this question. 
+
+## Recommendations:
+
+## Future Work:
+
+**Question 5: What are primary professions (other than directors) of selective directors who conducted not only profitable but attractive movies?**
+
+![Question_Five_Graph](./Images/Question_Five_Graph.png)
+
+## Analysis:
+
+Again, same as question 3. We combined all imdb* tabular data-sets to answer this question. 
+
+## Recommendations:
+
+## Future Work:
+
 ```python
 
 ```
