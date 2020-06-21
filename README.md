@@ -89,7 +89,7 @@ It is interesting that all five genres observed low points in the fall and winte
 
 ## Analysis:
 
-We combined all imdb* tabular data-sets to answer this question. 
+We combined all imdb* tabular data-sets to answer this question. We noticed that every single movie repeatedly showed up in combinatorial data-sets and they stood for a group of people who play various roles such as director, writer, editor, composer, actor, priducer, actress and so on in one given movie. Since our major emphasis on question 3 is to search for Top 100 directors as our final-lists for new movies, we removed all rows, except the one which contains each movie's director name and related information, e.g. primary profession. That is, we only kept one row that is exclusive for the sake of selecting Top 100 directors.     
 
 ## Recommendations:
 
