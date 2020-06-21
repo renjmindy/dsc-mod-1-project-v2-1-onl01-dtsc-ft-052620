@@ -82,6 +82,7 @@ Animation, Mystery and Sci-Fi movies perform consistently well year-round and we
 
 It is interesting that all five genres observed low points in the fall and winter months. We think it's worth a closer examination on the movies released during these times. Examining whether this is the result of audience trends, the quality of films released, or some other factor we have not considered yet can pose interesting data moving forward. Equally as important as determining what makes a film a success is determining what makes a film flop.
 
+# Planning Our Director Selection
 
 **Question 3: What genre of films are more likely being fond of the audience?**
 
@@ -91,7 +92,11 @@ It is interesting that all five genres observed low points in the fall and winte
 
 We combined all imdb* tabular data-sets to answer this question. We noticed that every single movie repeatedly showed up in combinatorial data-sets and they stood for a group of people who play various roles such as director, writer, editor, composer, actor, priducer, actress and so on in one given movie. Since our major emphasis on question 3 is to search for Top 100 directors as our final-lists for new movies, we removed all rows, except the one which contains each movie's director name and related information, e.g. primary profession. That is, we only kept one row that is exclusive for the sake of selecting Top 100 directors. Aside from the removal of redundant rows in one given movie, we further categorized all chosen movies, where the information of directors is sufficient enough for our analysis, into four separate groups based on the magnitude of average rating of every movie. These four rating regions range from 9-10, 8-9, 7-8 down to 6-7. We didn't select any lower average rating than 6 in our new director selection process, for we would like to be sure that our hired director will conduct more innovate movie as anticipated in order to attract more votes from the audience.
 
-A general idea is manifest by far. We, however, took one subtle thing into our consideration. 
+A general idea is manifest by far. We, however, took one subtle thing into our consideration. Over a range of rating regions, i.e. from 6 to 7, 7 to 8, 8 to 9 and then upto 10, genres play different weights. Take documentary, documentary type of movies obtain higher ratings (and/or votes) than the rest of genres in the highest rating region (9-10). On the other hand, the rating of more drama movies fall into somewaht lower rating region that is broadly distributed between 6 and 9. This observation tells us the weight of each genre is different in different rating regions. Hence, to evaluate every director's performance, we account for which genre type of movie for which the director conducted.     
+
+I calculated the director's performance based on the corresponding movie's average rating, and I assigned different weights depending on where the rating of one movie falls. For example, the director who once conducted one documentary movie with a lower rating will be given lower credit than the one who conduct the same documentary type of movie that obtained higher average rating. For directors who conducted drama movies with ratings between 9 and 10, they will obtain lower credit than those who also conducted drama movies but with lower average ratings ranging from 6 to 9. This is the way we assign different weights to different directors who conducted the same genre type of movies. 
+
+
 
 ## Recommendations:
 
