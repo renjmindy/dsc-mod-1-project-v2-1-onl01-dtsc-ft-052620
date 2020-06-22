@@ -129,11 +129,11 @@ It might be worth our energies to categorize tmdb* data-sets in terms of average
 
 ## Analysis:
 
-To answer this question, we simply looped over tn budget table and tried to find any matches from four lists of Top 100 directors.   
+To answer this question, we simply looped over tn budget table and tried to find any matches from four lists of Top 100 directors. See plots above. The top one (dark blue bar chart) is the domestic profit with respect to Top 15 directors. The bottom one (orange bar chart) instead is based on the worldwide profit.    
 
 ## Recommendations:
 
-We listed Top 15 diretors who conducted highly profitable movies as included in Mike's list. 
+We listed Top 15 diretors who conducted highly profitable movies as included in Mike's list. You can find Top 15 directors' names as labeled along each bar chart figure's x-axis.  
 
 ## Future Work:
 
