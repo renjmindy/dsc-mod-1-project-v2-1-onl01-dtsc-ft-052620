@@ -147,7 +147,7 @@ The only approach to finding a match among different sources of data-sets is to 
 
 ## Analysis:
 
-Again, same as question 3. We combined all imdb* tabular data-sets to answer this question. The way to treat primary profession is almost identical to that in use for getting Top 5 genres. 
+Again, same as question 3. We combined all imdb* tabular data-sets to answer this question. The approach to the analysis of treating primary profession is almost identical to that in use for getting Top 5 genres. 
 
 ## Recommendations:
 
