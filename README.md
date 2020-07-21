@@ -14,7 +14,7 @@ For our purposes, we will examine which genres are the most successful in the bo
  - 	What genre of films will have a better chance of producing box office numbers?
  - 	How does time of year affect profitability for certain genres?
  
-### The following three questions were answered by Chun-Min (Mindy) Jen, student_v8.ipynb ###
+### The following three questions were answered by Chun-Min (Mindy) Jen, student_v9.ipynb ###
  -  What genre of films are more likely being fond of the audience?  
  - 	Who are the directors creating high grossing films and highly rated films?
  -  What are primary professions (other than directors) of selective directors who conducted not only profitable but attractive movies?
