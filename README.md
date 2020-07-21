@@ -85,7 +85,7 @@ Animation, Mystery and Sci-Fi movies perform consistently well year-round and we
 It is interesting that all five genres observed low points in the fall and winter months. We think it's worth a closer examination on the movies released during these times. Examining whether this is the result of audience trends, the quality of films released, or some other factor we have not considered yet can pose interesting data moving forward. Equally as important as determining what makes a film a success is determining what makes a film flop.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
-# Planning Our Director Selection (Mindy Jen, student_v8.ipynb)
+# Planning Our Director Selection (Mindy Jen, student_v9.ipynb)
 
 **Question 3: What genre of films are more likely being fond of the audience?**
 
